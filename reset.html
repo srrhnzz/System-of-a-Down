@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>New Password - OSA</title>
+</head>
+<body>
+
+    <div class="login-wrapper">
+        
+        <div class="left-panel">
+            <div class="logo-container">
+                <img src="arellano.png" alt="Arellano University Logo">
+                <h2>Security</h2>
+            </div>
+            <p style="font-size: 0.8rem; text-align: center;">Choose a strong password to protect your student records.</p>
+        </div>
+
+        <div class="right-panel">
+            <h2>Set New Password</h2>
+            
+            <form id="reset-form" novalidate>
+                                    <span class="error-message"></span>
+
+                <div class="form-group">
+                    <label for="new-password">New Password (8+ characters)</label>
+                    <input type="password" id="new-password" required>
+                    <div class="eye-icon" id="eye-1"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm New Password</label>
+                    <input type="password" id="confirm-password" required>
+                    <div class="eye-icon" id="eye-2"></div>
+                </div>
+
+                <button type="submit" class="signup-btn" style="display: block; margin: 0 auto; margin-top: 20px;">Update Password</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

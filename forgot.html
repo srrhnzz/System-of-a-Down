@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Reset Password - OSA</title>
+</head>
+<body>
+
+    <div class="login-wrapper">
+        
+        <div class="left-panel">
+            <div class="logo-container">
+                <img src="arellano.png" alt="Arellano University Logo">
+                <h2>Security</h2>
+            </div>
+            <a href="login.html" class="login-link">Back to Login</a>
+        </div>
+
+<div class="right-panel">
+    <h2>Reset Password</h2>
+    
+    <form id="forgot-form" novalidate>
+        <div class="form-group">
+                        <span class="error-message"></span>
+
+            <label for="email">Enter your Email</label>
+            <input type="email" id="reset-email" name="email" required>
+        </div>
+
+        <p style="font-size: 0.75rem; color: #666; margin-top: 10px; margin-bottom: 2vh; width: 100%; max-width: 350px;">
+            We will send a reset code to your email address.
+        </p>
+
+        <button type="submit" class="signup-btn" style="display: block; margin: 0 auto;">Send Code</button>
+    </form>
+</div>
+
+    </div>
+
+</body>
+</html>
